@@ -1,0 +1,68 @@
+================================== Basic cmd for device ==========================================
+
+1) create new file using git command
+   
+   -> > [filename] ex: > index.html
+
+                 or
+
+   -> touch [fileName] ex: touch inedex.html
+
+                 or
+
+   -> echo "" > [fileName] ex: echo "" > index.html
+
+
+2) Create new folder
+
+   -> mkdir [fileName] ex: mkdir myfiles
+
+
+3) check the directory files or check the all existing file in my local folder
+
+   -> ls 
+
+
+4) remove files or folder
+
+   -> rm -rf [file or folder name] ex: rm -rf index.html or rm -rf myfiles (for deleteing the folder you should go one leveel up or parent folder)
+
+
+5) clear the terminal 
+
+   -> clear
+
+
+
+==================================== git repo related cmd ==========================================
+
+1) Initialize the repo 
+ 
+   -> git init
+
+
+2) check the current changes or those file not in online repository
+
+   -> git status
+
+
+3) Add all files for send to online repo
+
+  -> git add . 
+
+                  or
+
+  -> git add -A
+
+                  or
+       
+  i) add individual file
+
+  -> git add [fileName] ex: git add index.html
+
+
+4) add msg because if another see your commit then he/she understand the what type of changes you make
+
+  -> git commit -m [msg] ex: git commit -m "this is the index.html file i have change some tags. "
+
+
