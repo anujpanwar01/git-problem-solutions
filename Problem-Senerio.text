@@ -1,0 +1,22 @@
+# Let me we have two accounts and work on the same repo using one local machine, then we got [permisson denied] error so how we solve it ?
+
+#ans  1) If i have saved github crendtials then we have first remove it your local machine
+
+        on window 
+        
+#       1) go to the control panel
+#       2) go to user accounts 
+#       3) on the left side we "user crendential settings"
+#       4) find the github related saved file 
+#       5) remove it 
+
+
+
+#       2) or remove the origin url 
+#          git remote set-url origin https://[username]@github.com/[userName]/[repoName].git
+#          ex => git remote set-url origin https://anujpanwar01@github.com/anujpanwar01/myrepo.git
+           
+
+
+
+ 
