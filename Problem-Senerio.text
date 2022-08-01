@@ -12,6 +12,10 @@
 
 
 
+
+
+mac
+
 #       2) or remove the origin url 
 #          git remote set-url origin https://[username]@github.com/[userName]/[repoName].git
 #          ex => git remote set-url origin https://anujpanwar01@github.com/anujpanwar01/myrepo.git
